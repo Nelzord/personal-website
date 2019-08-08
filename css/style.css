@@ -1,3 +1,13 @@
 body{
-background-color: lime;
+   background-color: gray;
+}
+h1{
+   font-size: 50px;
+   font-family: Courier;
+   color: Lime; 
+}
+p{ 
+font-family: Courier;
+color: Lime;
+font-size: 13px;
 }
