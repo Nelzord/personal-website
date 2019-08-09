@@ -20,7 +20,7 @@ p{
 font-family: 'Exo 2', sans-serif;
 text-align: Center;
 color: #BA3C57;
-font-size: 40px;
+font-size: 35px;
 }
 p2{
    
@@ -40,5 +40,12 @@ div{
    color: #F056D7;
    background-color: #BA3C57;
    font-family: 'Exo 2', san-serif;
+   cursor: pointer;
    font-size: 20px;
+}
+
+.button:hover{
+   color: #BA3C57;
+   background-color: #F056D7;
+   
 }
