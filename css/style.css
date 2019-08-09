@@ -1,13 +1,15 @@
 body{
-   background-image: url(../Images/'leafyishere-background-12.jpg') no-repeat; 
+   background-image: url(../Images/leafyishere-background-12.jpg) no-repeat; 
 }
 h1{
+   background-image: url(../Images/leafyishere-background-12.jpg) no-repeat; 
    font-size: 50px;
    text-align: Center;
    font-family: Courier;
    color: Lime; 
 }
 p{ 
+   background-image: url(../Images/leafyishere-background-12.jpg) no-repeat; 
 font-family: Courier;
 text-align: Center;
 color: Lime;
