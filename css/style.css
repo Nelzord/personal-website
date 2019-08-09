@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+
+
 body{
    background-image: url(../Images/leafyishere-background-12.jpg); 
 }
@@ -5,21 +9,22 @@ h1{
   
    font-size: 50px;
    text-align: Center;
-   font-family: Courier;
-   color: Lime; 
+   font-family: 'Exo 2', sans-serif;
+   font-thickness: 0;
+   color: 	#F056D7; 
 }
 p{ 
   
-font-family: Courier;
+font-family: 'Exo 2', sans-serif;
 text-align: Center;
-color: Lime;
+color: #BA3C57;
 font-size: 13px;
 }
 p2{
    
-   font-family: 
+   font-size:20px; 
 }
  p3{
       color: Pink;
-      font-size:110px;
+      font-size:0px;
 }
