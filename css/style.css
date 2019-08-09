@@ -1,13 +1,23 @@
 body{
-   background-color: gray;
+   background-image: url(leafyishere-background-12.jpg) no-repeat; 
 }
 h1{
    font-size: 50px;
+   text-align: Center;
    font-family: Courier;
    color: Lime; 
 }
 p{ 
 font-family: Courier;
+text-align: Center;
 color: Lime;
 font-size: 13px;
+}
+p2{
+   
+   font-family: 
+}
+ p3{
+      color: Pink;
+      font-size:110px;
 }
