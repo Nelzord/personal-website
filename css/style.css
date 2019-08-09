@@ -7,18 +7,20 @@ body{
 }
 h1{
   
-   font-size: 50px;
+   font-size: 74px;
    text-align: Center;
    font-family: 'Exo 2', sans-serif;
    font-thickness: 0;
    color: 	#F056D7; 
+  
+   
 }
 p{ 
   
 font-family: 'Exo 2', sans-serif;
 text-align: Center;
 color: #BA3C57;
-font-size: 13px;
+font-size: 40px;
 }
 p2{
    
@@ -27,4 +29,16 @@ p2{
  p3{
       color: Pink;
       font-size:0px;
+}
+
+div{
+   
+   text-align: center;
+}
+
+.button{
+   color: #F056D7;
+   background-color: #BA3C57;
+   font-family: 'Exo 2', san-serif;
+   font-size: 20px;
 }
