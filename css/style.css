@@ -7,17 +7,17 @@ body{
 }
 h1{
   
-   font-size: 500px;
+   font-size: 50px;
    text-align: Center;
    font-family: 'Exo 2', sans-serif;
    font-thickness: 0;
-   color: Pink; 
+   color: 	#F056D7; 
 }
 p{ 
   
 font-family: 'Exo 2', sans-serif;
 text-align: Center;
-color: Yellow;
+color: #BA3C57;
 font-size: 13px;
 }
 p2{
