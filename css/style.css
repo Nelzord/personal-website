@@ -44,8 +44,35 @@ div{
    font-size: 20px;
 }
 
-.button:hover{
-   color: #BA3C57;
-   background-color: #F056D7;
-   
+
+#con {
+width:1024px;
+height:670px;
+background-color: none;
 }
+
+#box2 {
+float: center; 
+width: 1000px;
+height:300px;
+background-color: pink;
+
+font-size:25px;
+margin-left: 320px;
+margin-top: 0px;
+}
+
+
+#text1{
+    opacity: 0;
+    transition: all 1.2s;
+    
+}
+#box2:hover #text1{
+   opacity: 1;
+}
+
+p5{
+   color: white;
+}
+
