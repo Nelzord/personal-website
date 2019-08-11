@@ -10,7 +10,7 @@ h1{
    font-size: 74px;
    text-align: Center;
    font-family: 'Exo 2', sans-serif;
-   font-thickness: 0;
+   
    color: 	#F056D7; 
   
    
@@ -22,43 +22,29 @@ text-align: Center;
 color: #BA3C57;
 font-size: 35px;
 }
-p2{
-   
-   font-size:20px; 
-}
- p3{
-      color: Pink;
-      font-size: 23px;
-}
 
 div{
-   
+   float: center;
    text-align: center;
-}
-
-.button{
-   color: #F056D7;
-   background-color: #BA3C57;
-   font-family: 'Exo 2', san-serif;
-   cursor: pointer;
-   font-size: 20px;
 }
 
 
 #con {
-width:1024px;
+width:1920px;
 height:670px;
 background-color: none;
+float: center;
+text-align: center;
 }
 
 #box2 {
 float: center; 
+text-align: center;
 width: 1000px;
 height:300px;
 background-color: none;
-
 font-size:22px;
-margin-left: 320px;
+margin-left: 350px;
 margin-top: 0px;
 }
 
@@ -66,16 +52,25 @@ margin-top: 0px;
 #text1{
     opacity: 0;
     transition: all 1.2s;
+    float: center;
+    text-align: center;
+    
     
 }
 #box2:hover #text1{
    opacity: 1;
+   float: center;
+   text-align: center;
+
+}
+
+h14{
+   font-size: 44px;
+   text-align: Center;
+   font-family: 'Exo 2', sans-serif;
+   color: Violet; 
 }
 
 p5{
-   color: #78494F;
-}
-
-p3{
-   colro
+   color: #fffdd0;
 }
