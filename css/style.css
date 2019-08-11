@@ -28,7 +28,7 @@ p2{
 }
  p3{
       color: Pink;
-      font-size:0px;
+      font-size: 23px;
 }
 
 div{
@@ -55,9 +55,9 @@ background-color: none;
 float: center; 
 width: 1000px;
 height:300px;
-background-color: pink;
+background-color: none;
 
-font-size:25px;
+font-size:22px;
 margin-left: 320px;
 margin-top: 0px;
 }
@@ -73,6 +73,9 @@ margin-top: 0px;
 }
 
 p5{
-   color: white;
+   color: #78494F;
 }
 
+p3{
+   colro
+}
