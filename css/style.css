@@ -8,7 +8,7 @@ body{
 }
 
 hh{
-  
+  line-height: 100pt;
   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
    font-size: 150px;
@@ -21,7 +21,7 @@ hh{
    
 }
 h1{
-   line-height: 0px;
+   
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
    font-size: 150px;
@@ -51,6 +51,7 @@ div{
 }
 
 div2{
+   line-height: 20pt;
    font-family: 'Exo 2', sans-serif;
    color:  #BA3C57;
 }
@@ -88,7 +89,7 @@ margin-top: 0px;
 }
 
 h3{
-   line
+  
    -webkit-text-stroke-width: .1px;
    -webkit-text-stroke-color: white;
    font-family: 'Exo 2', sans-serif;
