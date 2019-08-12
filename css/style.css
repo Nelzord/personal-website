@@ -4,10 +4,11 @@
 
 body{
    background-image: url(../Images/leafyishere-background-12.jpg); 
-   line-height: 26pt;
+   
 }
 
 hh{
+  
   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
    font-size: 150px;
@@ -20,6 +21,7 @@ hh{
    
 }
 h1{
+   line-height: 0px;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
    font-size: 150px;
