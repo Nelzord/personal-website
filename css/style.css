@@ -45,6 +45,7 @@ font-size: 60px;
 }
 
 div{
+   line-height: 0;
    text-align: center;
    
 }
@@ -87,6 +88,7 @@ margin-top: 0px;
 }
 
 h3{
+   line
    -webkit-text-stroke-width: .1px;
    -webkit-text-stroke-color: white;
    font-family: 'Exo 2', sans-serif;
