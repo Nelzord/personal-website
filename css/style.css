@@ -5,6 +5,19 @@
 body{
    background-image: url(../Images/leafyishere-background-12.jpg); 
 }
+
+hh{
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 150px;
+   font-style: normal;
+   font-weight: lighter;
+   text-align: Center;
+   font-family: 'Kanit', sans-serif;
+   color:#F056D7; 
+   
+   
+}
 h1{
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
