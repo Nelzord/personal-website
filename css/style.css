@@ -70,11 +70,11 @@ position: relative;
 display: inline-block;
 width: 900px;
 height: 1000px;
-background-color: #45C3A8;
+background-color: #A158B9;
 font-size:20px;
 border-radius: 25px;
 margin: 0px 0px;
-opacity: .8;
+opacity: .9;
 
 }
 
@@ -93,7 +93,7 @@ h3{
    -webkit-text-stroke-color: white;
    font-family: 'Exo 2', sans-serif;
    color: #F056D7;
-   font-size: 40px;
+   font-size: 80px;
 }
 
 img{
@@ -193,5 +193,20 @@ h11{
    font-family: 'Kanit', sans-serif;
    color:#F056D7; 
    margin: 300px: -200px;
+
+}
+
+
+
+F{
+ -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 50px;
+   font-style: normal;
+   font-weight: lighter;
+   text-align: Center;
+   font-family: 'Kanit', sans-serif;
+   color:#F056D7; 
+
 
 }
