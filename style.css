@@ -696,20 +696,6 @@ textarea::-ms-input-placeholder{
 }
 
 
-@-webkit-keyframes loading-center-absolute {
-    100% { -webkit-transform: rotate(-45deg); }
-
-}
-
-@keyframes loading-center-absolute {
-    100% { 
-        transform:  rotate(-45deg);
-        -webkit-transform:  rotate(-45deg);
-    }
-}
-
-
-
 @-webkit-keyframes object_one {
     25% { -webkit-transform: translate(0,-50px) rotate(-180deg); }
     100% { -webkit-transform: translate(0,0) rotate(-180deg); }
