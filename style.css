@@ -1,31 +1,4 @@
 
-
-/*
-Author: Bootstrap Themes
-Author URI: http://bootstrapthemes.co
-*/
-
-/*==========================================
- 01.  PREDIFINEED (FROM 1 TO 780 )
- 02.  PRELOADER - LINE NO 786
- 03.  NAVIGATION - LINE NO 930
- 04.  HOME - LINE NO 1150
- 05.  THU FEATURE - LINE NO 1280
- 06.  THU FLIDE - LINE NO 1355
- 07.  THU SERVICE - LINE NO 1385
- 08.  PORTFOLIO - LINE NO 1444
- 09.  THU SOLUTION - LINE NO 1620
- 10.  THU TEAM - LINE NO 1658
- 11.  THU CLIENTS FEEDBACK - LINE NO 1730
- 12. THU BLOG - LINE NO 1848
- 13. THU SUBCRIBS - LINE NO 1935
- 14. FOOTER - LINE NO 2020
-==========================================*/
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
     background-color:#fafafa;
@@ -40,7 +13,7 @@ body {
 }
 
 /*------------------------------------------------------------------*/
-/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
+/*  This is not used for profit
 /*-----------------------------------------------------------------*/
 
 @-webkit-viewport { width: device-width; }
@@ -60,11 +33,7 @@ section { overflow: hidden; }
     On Scroll Animations 
 ------------------------------------------*/
 
-/*.animated { visibility: hidden; }
-.visible { visibility: visible; }*/
 
-/*
-    Spacing & Alignment 
 ------------------------------------------*/
 
 .roomy-150 {
@@ -310,53 +279,6 @@ p:last-child {
 Section
 */
 
-.parallax-section {
-    max-width: 100%;
-    color: #ffffff;
-}
-
-ul{
-    margin:0;
-    padding:0;
-    list-style:none;
-}
-
-/*all overlay*/
-.overlay_dot{
-    background: url(../images/overlay-img.png) no-repeat top center;
-    background-color: rgba(51,51,51,0.75);
-    background-size: cover;
-    position: absolute;
-    left:0;
-    top:0;
-    width:100%;
-    height: 100%;
-}
-.home-overlay {
-    background-color: rgba(41, 39, 34, 0.90);
-    width: 100%;
-    height:100%;
-    position: absolute;
-    left:0;
-    top: 0;
-}
-
-.video_overlay {
-    background-color: rgba(41, 39, 34, 0.80);
-    width: 100%;
-    height:100%;
-    position: absolute;
-    left:0;
-    top: 0;
-}
-.download_overlay{
-    background: url(../images/downloadbg.png) repeat-y;
-    width:100%;
-    height: 100%;
-    position: absolute;
-    left:0;
-    top:0;
-}
 
 .no-padding {
     padding: 0 !important;
@@ -745,36 +667,6 @@ textarea::-ms-input-placeholder{
 
 
 
-/*Preloader*/
-#loading{
-    background-color: #fc6a42;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    margin-top: 0px;
-    top: 0px;
-    left:0;
-    z-index: 9999;
-}
-#loading-center{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-#loading-center-absolute {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    margin-top: -25px;
-    margin-left: -25px;
-    -ms-transform: rotate(45deg); 
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg); 
-    -webkit-animation: loading-center-absolute 1.5s infinite;
-    animation: loading-center-absolute 1.5s infinite;
 
 }
 .object{
