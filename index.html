@@ -1,297 +1,253 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
-   <!--- basic page needs
-   ================================================== -->
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Jack Nelson - Software Engineer</title>
+    <meta name="description" content="Personal website for Jack Nelson, a software engineer.">
+    <meta name="author" content="Jack Nelson">
+    <meta name="theme-color" content="#ffffff">
+    <meta property='og:title' content='Jack Nelson'/>
+    <meta property='og:image' content='//nelzord.com/images/profile-pic2.jpg'/>
+    <meta property='og:description' content='Personal Website for Jack Nelson'/>
 
-   <meta charset="utf-8">
-	<title>Nelzord</title>
-	<meta name="description" content="">  
-	<meta name="author" content="Jack Nelson">
-	<meta name="theme-color" content="#ffffff">
-  	<meta property='og:title' content='Jack Nelson'/>
-   	<meta property='og:image' content='//nelzord.com/ images/profile-pic2.jpg'/>
-   	<meta property='og:description' content='Personal Website for Jack Nelson'/>
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-   <!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
 
- 	<!-- CSS
-   ================================================== -->
-   <link rel="stylesheet" href="css/base.css">  
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+    <!-- Scripts
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-   <!-- script
-   ================================================== -->   
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
-
-   <!-- favicons
-	================================================== -->
-
-   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-   <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-   <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-   <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-   <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-   <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-   <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-   <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-   <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-   <link rel="manifest" href="/manifest.json">
-   <meta name="msapplication-TileColor" content="#ffffff">
-   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-   <meta name="theme-color" content="#ffffff">
-   <meta property='og:title' content='Jack Nelson'/>
-   <meta property='og:image' content='//nelzord.com/ android-icon-192x192.png'/>
-   <meta property='og:description' content='Personal Website for Jack Nelson'/>
-
-
+    <!-- Favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 </head>
 
+<body>
 
-	<!-- header 
-   ================================================== -->
-   <header>   	
-   	<div class="row">
+    <!-- Header
+    ================================================== -->
+    <header>
+        <div class="row">
+            <div class="top-bar">
+                <a class="menu-toggle" href="#"><span>Menu</span></a>
+                <div class="logo">
+                    <!-- Add your logo here if you have one -->
+                </div>
+                <nav id="main-nav-wrap">
+                    <ul class="main-navigation">
+                        <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+                        <li><a class="smoothscroll" href="#about" title="">About</a></li>
+                        <li><a class="smoothscroll" href="#experience" title="">Experience</a></li>
+                        <li><a class="smoothscroll" href="#projects" title="">Projects</a></li>
+                        <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-   		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+    <!-- Intro Section
+    ================================================== -->
+    <section id="intro">
+        <div class="intro-overlay"></div>
+        <div class="intro-content">
+            <div class="row">
+                <div class="col-twelve">
+                    <h5>Welcome to My Professional Portfolio</h5>
+                    <h1>I'm Jack Nelson, Software Engineer.</h1>
+                    <p class="intro-position">
+                        <span>Full-Stack Developer</span>
+                        <span>Problem Solver</span>
+                        <span>Technology Enthusiast</span>
+                    </p>
+                    <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	   		<div class="logo">
+    <!-- About Section
+    ================================================== -->
+    <section id="about">
+        <div class="row section-intro">
+            <div class="col-twelve">
+                <h5>About</h5>
+                <h1>Let me introduce myself.</h1>
+                <div class="intro-info">
+                    <img src="images/profile-pic2.jpg" alt="Profile Picture">
+                    <p class="lead">I am a software engineer with a strong foundation in full-stack development, cloud computing, and DevOps. I have professional experience at Walmart Global Tech and Amazon, where I developed scalable backend services, automated workflows, and enhanced developer efficiency.</p>
+                    <p>My passion lies in leveraging technology to solve complex problems and create innovative solutions that make a real impact. I am also a graduate of California Polytechnic State University, where I earned my B.S. in Computer Science.</p>
+                </div>
+            </div>
+        </div>
 
-		      </div>		      
+        <div class="row about-content">
+            <div class="col-twelve tab-full">
+                <h3>Goal</h3>
+                <p> My goal as a software engineer is to use my skills and knowledge to create tools and applications that make people's lives easier and more efficient. I want to help create positive change by developing applications and services that can improve people's day-to-day lives and reduce their stress levels. I also want to develop products and services that can help protect the environment, promote sustainability, and make the world a better place.</p>
+            </div>
 
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>					
-					</ul>
-				</nav>    		
-   		</div> <!-- /top-bar --> 
-   		
-   	</div> <!-- /row --> 		
-   </header> <!-- /header -->
+            <div class="col-twelve tab-full">
+                <h3>Technical Skills</h3>
+                <ul class="skill-list">
+                    <li><strong>Languages:</strong> Java, Python, JavaScript, C, C++, Typescript, SQL, Go, Kotlin</li>
+                    <li><strong>Frameworks:</strong> React, Spring Boot, Django, Flask, Express.js, Node.js</li>
+                    <li><strong>Tools:</strong> Git, PostgreSQL, Kubernetes, Splunk, AWS, GCP, Grafana, Jenkins, Redis</li>
+                    <li><strong>Core Competencies:</strong> Documentation, Time Management, Customer Focus, Problem Solving, Agile</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-	<!-- intro section
-   ================================================== -->
-   <section id="intro">   
+    <!-- Experience Section
+    ================================================== -->
+    <section id="experience">
+        <div class="row section-intro">
+            <div class="col-twelve">
+                <h5>Experience</h5>
+                <h1>Where I've Worked</h1>
+            </div>
+        </div>
 
-   	<div class="intro-overlay"></div>	
-
-   	<div class="intro-content">
-   		<div class="row">
-
-   			<div class="col-twelve">
-
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Jack Nelson.</h1>
-
-	   			<p class="intro-position">
-	   				<span>Programmer</span>
-	   				<span>Technologist</span> 
-					<span>Musician</span>
-	   			</p>
-
-	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-	   		</div>  
-   			
-   		</div>   		 		
-   	</div> <!-- /intro-content --> 
-
-
-
-   </section> <!-- /intro -->
-
-
-   <!-- about section
-   ================================================== -->
-   <section id="about">  
-
-   	<div class="row section-intro">
-   		<div class="col-twelve">
-
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
-
-   			<div class="intro-info">
-
-   				<img src="images/profile-pic2.jpg" alt="Profile Picture">
-
-   				<p class="lead">Proficient in Python, Java, Javascript, and SQL, I am a passionate technologist interested in pushing boundaries and creating global change. I am a graduate from Cal Poly SLO with a major in computer science.</p>
-   			</div>   			
-
-   		</div>   		
-   	</div> <!-- /section-intro -->
-
-   	<div class="row about-content">
-
-   		<div class="col-six tab-full">
-
-   			<h3>Goal</h3>
-   			<p> My goal as a software engineer is to use my skills and knowledge to create tools and applications that make people's lives easier and more efficient. I want to help create positive change by developing applications and services that can improve people's day-to-day lives and reduce their stress levels. I also want to develop products and services that can help protect the environment, promote sustainability, and make the world a better place.</p>
-
-			<h3>Hobbies</h3>
-			<p> In my free time, you can find me playing hockey, surfing, and skiing. I also enjoy reading news about everything tech related. </p>
-
-			<!--
-   			<ul class="info-list">
-   				<li>
-   					<strong>Name:</strong>
-   					<span>Jack Nelson</span>
-   				</li>
-   				<li>
-   					<strong>Student:</strong>
-   					<span>Bachelor of Science, Computer Science</span>
-   				</li>
-				<li>
-   					<strong>Github:</strong>
-   					<span>Github.com/Nelzord</span>
-   				</li>
-   				<li>
-   					<strong>Website:</strong>
-   					<span>nelzord.com</span>
-   				</li>
-   				<li>
-   					<strong>Email:</strong>
-   					<span>nelzord@gmail.com</span>
-   				</li>
-
-   			</ul> <!-- /info-list -->
+        <div class="row experience-content">
+			<div class="col-six">
+				<h3>Walmart Global Tech</h3>
+				<ul>
+					<li>Developed a Slack bot to scan failed pipelines, reducing on-call load by 20%.</li>
+					<li>Built Grafana dashboards to monitor API usage and utilized Redis for caching.</li>
+				</ul>
+			</div>
+			<div class="col-six">
+				<h3>Amazon</h3>
+				<ul>
+					<li>Developed a backend service using AWS CDK, TypeScript, and RxJS for Amazon Ads partners.</li>
+					<li>Implemented health endpoints and automated on-call alerts.</li>
+				</ul>
+			</div>
+			<div style="clear: both;"></div> <!-- Clears float after two columns -->
+			<div class="col-six">
+				<h3>Dragos Inc.</h3>
+				<ul>
+					<li>Developed software to track TCP streams and analyze network traffic patterns.</li>
+					<li>Automated PCAP file generation using Wireshark and Python's Scapy library.</li>
+				</ul>
+			</div>
+			<div class="col-six">
+				<h3>Cal Poly Digital Transformation Hub</h3>
+				<ul>
+					<li>Developed a cloud-based platform on AWS to connect over 17,000 SLO veterans with 30,000+ local student volunteers.</li>
+					<li>Collaborated with SLO VSO and Cal Poly to build a custom mobile application tailored to meet customer needs and enhance user experience.</li>
+				</ul>
+			</div>
+		</div>
 		
+    </section>
 
-   		</div>
+    <!-- Projects Section
+    ================================================== -->
+    <section id="projects">
+        <div class="row section-intro">
+            <div class="col-twelve">
+                <h5>Projects</h5>
+                <h1>What I've Built</h1>
+            </div>
+        </div>
 
-   		<div class="col-six tab-full">
+        <div class="row project-content">
+            <div class="col-six">
+                <h3>Vetering</h3>
+                <p><em>React, DynamoDB, AWS CDK</em></p>
+                <p>Built an AWS CDK application connecting student volunteers with veterans. Pitched the idea at Camp Polyhacks Hackathon, securing 2nd place out of 100 teams.</p>
+            </div>
+            <div class="col-six">
+                <h3>Recipe Sharing Web App</h3>
+                <p><em>React, Lambda, GraphQL</em></p>
+                <p>Designed a platform for searching recipes based on cost, ingredients, and other filters. Integrated third-party APIs like Spoonacular and Edamam.</p>
+            </div>
+        </div>
+    </section>
 
-   			<h3>Skills</h3>
-   			<p>Here are some of my skills.</p>
+    <!-- Contact Section
+    ================================================== -->
+    <section id="contact">
+        <div class="row contact-info">
+            <div class="col-four tab-full">
+                <div class="icon">
+                    <i class="icon-pin"></i>
+                </div>
+                <h5>Where to find me</h5>
+                <p>
+                    <mark>Chicago, IL, USA<br> San Luis Obispo, CA, USA</mark>
+                </p>
+            </div>
 
-				<ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>Python</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent65"><span>85%</span></div>
-				   	<strong>Java</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent75"><span>75%</span></div>
-				   	<strong>Javascript</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent80"><span>90%</span></div>
-				   	<strong>SQL</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>React</strong>
-				   </li>
-				
-      
-				</ul> <!-- /skill-bars -->		
+            <div class="col-four tab-full collapse">
+                <div class="icon">
+                    <i class="icon-mail"></i>
+                </div>
+                <h5>Email Me At</h5>
+                <p><a href="mailto:nelzord@gmail.com"><mark>nelzord@gmail.com</mark></a></p>
+            </div>
 
-   		</div>
+            <div class="col-four tab-full">
+                <div class="icon">
+                    <i class="fa fa-rocket"></i>
+                </div>
+                <h5>Github</h5>
+                <p><a href="https://www.github.com/Nelzord"><mark>Github.com/Nelzord</mark></a></p>
+            </div>
+        </div>
+    </section>
 
-   	</div>
+    <!-- Footer
+    ================================================== -->
+    <footer>
+        <div class="row" style="text-align: center;">
+			<div class="col-six" style="display: inline-block; float: none;">
+				<h5>Let's Connect</h5>
+				<p>I'm always open to discussing new projects or opportunities. Feel free to reach out!</p>
+			</div>
+		</div>
 
+        <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+        </div>
+    </footer>
 
-   </section> <!-- /process-->    
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
 
-
-	
-  
-
-   	<div class="row contact-info">
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="icon-pin"></i>
-   			</div>
-
-   			<h5>Where to find me</h5>
-
-   			<p>
-            <mark>Chicago, IL, USA<br>
-            San Luis Obispo, CA, USA</mark><br>
-			
-            </p>
-
-   		</div>
-
-   		<div class="col-four tab-full collapse">
-
-   			<div class="icon">
-   				<i class="icon-mail"></i>
-   			</div>
-
-   			<h5>Email Me At</h5>
-
-   			<p><a href="mailto:nelzord@gmail.com"><mark>nelzord@gmail.com</mark></a><br>	     
-			   </p>
-
-   		</div>
-
-   		<div class="col-four tab-full">
-
-   			<div class="icon">
-   				<i class="fa fa-rocket"></i>
-   			</div>
-
-   			<h5>Github</h5>
-
-   			<p><a href="https://www.github.com/Nelzord"><mark>Github.com/Nelzord</mark></a></br>
-			   	
-			   </p>
-
-   		</div>
-   		
-   	</div> <!-- /contact-info -->
-		
-	</section> <!-- /contact -->
-
-
-   <!-- footer
-   ================================================== -->
-
-   <footer>
-     	<div class="row">
-
-     		<div class="col-six tab-full pull-right social">
-
-     	
-	      		
-	      </div>
-
-
-	      	<div id="go-top">
-		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		      </div>
-
-      	</div> <!-- /row -->     	
-   </footer>  
-
-   <div id="preloader"> 
-    	<div id="loader"></div>
-   </div> 
-
-   <!-- Java Script
-   ================================================== --> 
-   <script src="js/jquery-2.1.3.min.js"></script>
-   <script src="js/plugins.js"></script>
-   <script src="js/main.js"></script>
+    <!-- JavaScript
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-
 </html>
