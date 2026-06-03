@@ -1,253 +1,421 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
-    <!-- Basic Page Needs
-    ================================================== -->
     <meta charset="utf-8">
-    <title>Jack Nelson - Software Engineer</title>
-    <meta name="description" content="Personal website for Jack Nelson, a software engineer.">
+    <title>Jack Nelson - Software Engineer, AI &amp; ML</title>
+    <meta name="description" content="Jack Nelson - Software Engineer building AI data platforms, intelligent agents, and scalable backend systems at Oracle Cloud Infrastructure.">
     <meta name="author" content="Jack Nelson">
-    <meta name="theme-color" content="#ffffff">
-    <meta property='og:title' content='Jack Nelson'/>
-    <meta property='og:image' content='//nelzord.com/images/profile-pic2.jpg'/>
-    <meta property='og:description' content='Personal Website for Jack Nelson'/>
+    <meta name="theme-color" content="#0b0d12">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:title" content="Jack Nelson - Software Engineer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nelzord.com">
+    <meta property="og:image" content="https://nelzord.com/images/profile-pic2.jpg">
+    <meta property="og:description" content="Software Engineer building AI data platforms, intelligent agents, and scalable backend systems.">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Scripts
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 </head>
 
 <body>
+    <!-- Background grid + glow -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
 
-    <!-- Header
-    ================================================== -->
-    <header>
-        <div class="row">
-            <div class="top-bar">
-                <a class="menu-toggle" href="#"><span>Menu</span></a>
-                <div class="logo">
-                    <!-- Add your logo here if you have one -->
-                </div>
-                <nav id="main-nav-wrap">
-                    <ul class="main-navigation">
-                        <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-                        <li><a class="smoothscroll" href="#about" title="">About</a></li>
-                        <li><a class="smoothscroll" href="#experience" title="">Experience</a></li>
-                        <li><a class="smoothscroll" href="#projects" title="">Projects</a></li>
-                        <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <div class="container nav-inner">
+            <a href="#top" class="brand smoothscroll">
+                <span class="brand-mark">JN</span>
+                <span class="brand-name">Jack Nelson</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a class="smoothscroll" href="#about">About</a>
+                <a class="smoothscroll" href="#experience">Experience</a>
+                <a class="smoothscroll" href="#skills">Skills</a>
+                <a class="smoothscroll" href="#projects">Projects</a>
+                <a class="smoothscroll" href="#education">Education</a>
+                <a class="nav-cta smoothscroll" href="#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
 
-    <!-- Intro Section
-    ================================================== -->
-    <section id="intro">
-        <div class="intro-overlay"></div>
-        <div class="intro-content">
-            <div class="row">
-                <div class="col-twelve">
-                    <h5>Welcome to My Professional Portfolio</h5>
-                    <h1>I'm Jack Nelson, Software Engineer.</h1>
-                    <p class="intro-position">
-                        <span>Full-Stack Developer</span>
-                        <span>Problem Solver</span>
-                        <span>Technology Enthusiast</span>
-                    </p>
-                    <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section
-    ================================================== -->
-    <section id="about">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>About</h5>
-                <h1>Let me introduce myself.</h1>
-                <div class="intro-info">
-                    <img src="images/profile-pic2.jpg" alt="Profile Picture">
-                    <p class="lead">I am a software engineer with a strong foundation in full-stack development, cloud computing, and DevOps. I have professional experience at Walmart Global Tech and Amazon, where I developed scalable backend services, automated workflows, and enhanced developer efficiency.</p>
-                    <p>My passion lies in leveraging technology to solve complex problems and create innovative solutions that make a real impact. I am also a graduate of California Polytechnic State University, where I earned my B.S. in Computer Science.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row about-content">
-            <div class="col-twelve tab-full">
-                <h3>Goal</h3>
-                <p> My goal as a software engineer is to use my skills and knowledge to create tools and applications that make people's lives easier and more efficient. I want to help create positive change by developing applications and services that can improve people's day-to-day lives and reduce their stress levels. I also want to develop products and services that can help protect the environment, promote sustainability, and make the world a better place.</p>
-            </div>
-
-            <div class="col-twelve tab-full">
-                <h3>Technical Skills</h3>
-                <ul class="skill-list">
-                    <li><strong>Languages:</strong> Java, Python, JavaScript, C, C++, Typescript, SQL, Go, Kotlin</li>
-                    <li><strong>Frameworks:</strong> React, Spring Boot, Django, Flask, Express.js, Node.js</li>
-                    <li><strong>Tools:</strong> Git, PostgreSQL, Kubernetes, Splunk, AWS, GCP, Grafana, Jenkins, Redis</li>
-                    <li><strong>Core Competencies:</strong> Documentation, Time Management, Customer Focus, Problem Solving, Agile</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section
-    ================================================== -->
-    <section id="experience">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>Experience</h5>
-                <h1>Where I've Worked</h1>
-            </div>
-        </div>
-
-        <div class="row experience-content">
-			<div class="col-six">
-				<h3>Walmart Global Tech</h3>
-				<ul>
-					<li>Developed a Slack bot to scan failed pipelines, reducing on-call load by 20%.</li>
-					<li>Built Grafana dashboards to monitor API usage and utilized Redis for caching.</li>
-				</ul>
-			</div>
-			<div class="col-six">
-				<h3>Amazon</h3>
-				<ul>
-					<li>Developed a backend service using AWS CDK, TypeScript, and RxJS for Amazon Ads partners.</li>
-					<li>Implemented health endpoints and automated on-call alerts.</li>
-				</ul>
-			</div>
-			<div style="clear: both;"></div> <!-- Clears float after two columns -->
-			<div class="col-six">
-				<h3>Dragos Inc.</h3>
-				<ul>
-					<li>Developed software to track TCP streams and analyze network traffic patterns.</li>
-					<li>Automated PCAP file generation using Wireshark and Python's Scapy library.</li>
-				</ul>
-			</div>
-			<div class="col-six">
-				<h3>Cal Poly Digital Transformation Hub</h3>
-				<ul>
-					<li>Developed a cloud-based platform on AWS to connect over 17,000 SLO veterans with 30,000+ local student volunteers.</li>
-					<li>Collaborated with SLO VSO and Cal Poly to build a custom mobile application tailored to meet customer needs and enhance user experience.</li>
-				</ul>
-			</div>
-		</div>
-		
-    </section>
-
-    <!-- Projects Section
-    ================================================== -->
-    <section id="projects">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>Projects</h5>
-                <h1>What I've Built</h1>
-            </div>
-        </div>
-
-        <div class="row project-content">
-            <div class="col-six">
-                <h3>Vetering</h3>
-                <p><em>React, DynamoDB, AWS CDK</em></p>
-                <p>Built an AWS CDK application connecting student volunteers with veterans. Pitched the idea at Camp Polyhacks Hackathon, securing 2nd place out of 100 teams.</p>
-            </div>
-            <div class="col-six">
-                <h3>Recipe Sharing Web App</h3>
-                <p><em>React, Lambda, GraphQL</em></p>
-                <p>Designed a platform for searching recipes based on cost, ingredients, and other filters. Integrated third-party APIs like Spoonacular and Edamam.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section
-    ================================================== -->
-    <section id="contact">
-        <div class="row contact-info">
-            <div class="col-four tab-full">
-                <div class="icon">
-                    <i class="icon-pin"></i>
-                </div>
-                <h5>Where to find me</h5>
-                <p>
-                    <mark>Chicago, IL, USA<br> San Luis Obispo, CA, USA</mark>
+    <main id="top">
+        <!-- Hero -->
+        <section id="intro" class="hero">
+            <div class="container hero-inner">
+                <p class="hero-eyebrow reveal">
+                    <span class="status-dot"></span> Available for collaboration
                 </p>
-            </div>
-
-            <div class="col-four tab-full collapse">
-                <div class="icon">
-                    <i class="icon-mail"></i>
+                <h1 class="hero-title reveal">
+                    Hi, I'm <span class="grad-text">Jack Nelson</span>.<br>
+                    I build <span class="rotator" id="rotator">AI data platforms</span>.
+                </h1>
+                <p class="hero-sub reveal">
+                    Software Engineer on Oracle's AI Data Platform team. I design intelligent
+                    agent systems, RAG pipelines, and scalable backend infrastructure that turns
+                    complex data into real-world impact.
+                </p>
+                <div class="hero-actions reveal">
+                    <a class="btn btn-primary smoothscroll" href="#experience">View my work</a>
+                    <a class="btn btn-ghost smoothscroll" href="#contact">Get in touch</a>
                 </div>
-                <h5>Email Me At</h5>
-                <p><a href="mailto:nelzord@gmail.com"><mark>nelzord@gmail.com</mark></a></p>
             </div>
+            <a class="scroll-cue smoothscroll" href="#about" aria-label="Scroll to about">
+                <span></span>
+            </a>
+        </section>
 
-            <div class="col-four tab-full">
-                <div class="icon">
-                    <i class="fa fa-rocket"></i>
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-kicker">01 - About</span>
+                    <h2 class="section-title">A bit about me</h2>
                 </div>
-                <h5>Github</h5>
-                <p><a href="https://www.github.com/Nelzord"><mark>Github.com/Nelzord</mark></a></p>
+                <div class="about-grid">
+                    <div class="about-photo reveal">
+                        <img src="images/profile-pic2.jpg" alt="Jack Nelson" loading="lazy">
+                        <div class="about-photo-ring" aria-hidden="true"></div>
+                    </div>
+                    <div class="about-text reveal">
+                        <p class="lead">
+                            I'm a software engineer focused on the intersection of <strong>AI/ML</strong>
+                            and <strong>distributed systems</strong>. At Oracle Cloud Infrastructure, I'm
+                            building the AI Data Platform Workbench - letting teams compose MCP, RAG, and
+                            prompt tools into agent workflows.
+                        </p>
+                        <p>
+                            Before Oracle, I shipped agentic systems and developer-productivity tooling at
+                            Walmart Global Tech, and scalable backend services at Amazon. I love taking
+                            ambiguous problems and turning them into reliable, well-instrumented products
+                            that people actually enjoy using.
+                        </p>
+                        <p>
+                            I hold a B.S. in Computer Science from California Polytechnic State University,
+                            and outside of work I build games - including a Roblox title that's reached
+                            half a million players.
+                        </p>
+                        <div class="about-tags">
+                            <span>AI Agents</span>
+                            <span>RAG &amp; LLMs</span>
+                            <span>Distributed Systems</span>
+                            <span>Cloud Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer
-    ================================================== -->
-    <footer>
-        <div class="row" style="text-align: center;">
-			<div class="col-six" style="display: inline-block; float: none;">
-				<h5>Let's Connect</h5>
-				<p>I'm always open to discussing new projects or opportunities. Feel free to reach out!</p>
-			</div>
-		</div>
+        <!-- Experience -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-kicker">02 - Experience</span>
+                    <h2 class="section-title">Where I've worked</h2>
+                </div>
 
-        <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+                <div class="timeline">
+                    <article class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <div>
+                                    <h3 class="tl-role">Member of Technical Staff - AI Data Platform</h3>
+                                    <p class="tl-company">Oracle Cloud Infrastructure</p>
+                                </div>
+                                <div class="tl-meta">
+                                    <span class="tl-date current">Dec 2025 - Present</span>
+                                    <span class="tl-loc">Denver, CO</span>
+                                </div>
+                            </div>
+                            <ul class="tl-points">
+                                <li>Built core components of Oracle's AI Data Platform Workbench, enabling users to configure and compose MCP, RAG, and Prompt tools through a drag-and-drop interface to create agent workflows.</li>
+                                <li>Partnered closely with the UI team to resolve inconsistencies and improve end-to-end workflow UX, ensuring accurate tool configuration and seamless execution across agent flows.</li>
+                                <li>Developed integration tests and production alarms to validate tool execution and monitor system health, improving reliability of distributed agent workflows across API, agent, and compute layers.</li>
+                            </ul>
+                            <div class="tl-stack">
+                                <span>MCP</span><span>RAG</span><span>Agent Workflows</span><span>Distributed Systems</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <div>
+                                    <h3 class="tl-role">Software Engineer III, ML/AI</h3>
+                                    <p class="tl-company">Walmart Global Tech</p>
+                                </div>
+                                <div class="tl-meta">
+                                    <span class="tl-date">Jun 2025 - Dec 2025</span>
+                                    <span class="tl-loc">Bentonville, AR</span>
+                                </div>
+                            </div>
+                            <ul class="tl-points">
+                                <li>Engineered custom AI agents using LangChain, enabling agent-to-agent (A2A) communication for coordinated reasoning across services - deployed as Slack and MS Teams bots to analyze pipeline failures and deliver solutions.</li>
+                                <li>Designed automated cron jobs to process internal Walmart documents, updating a Milvus vector database for real-time embedding retrieval.</li>
+                                <li>Received the Bravo Award (Excellence in Speed) from Walmart CTO Suresh Kumar for delivering critical solutions during peak operations.</li>
+                            </ul>
+                            <div class="tl-stack">
+                                <span>LangChain</span><span>A2A Systems</span><span>Milvus</span><span>Python</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <div>
+                                    <h3 class="tl-role">Software Engineer II, ML/AI</h3>
+                                    <p class="tl-company">Walmart Global Tech</p>
+                                </div>
+                                <div class="tl-meta">
+                                    <span class="tl-date">Aug 2023 - Jun 2025</span>
+                                    <span class="tl-loc">Bentonville, AR</span>
+                                </div>
+                            </div>
+                            <ul class="tl-points">
+                                <li>Developed an enterprise-wide Spring Boot app to scan failed pipelines and notify users with solutions, reducing on-call load by 20%.</li>
+                                <li>Implemented dynamic rate limiting and Redis caching, and built Grafana dashboards for system reliability.</li>
+                                <li>Processed over a million Jenkins pipeline errors as Kafka events, stored in PostgreSQL and analyzed for proactive issue resolution.</li>
+                            </ul>
+                            <div class="tl-stack">
+                                <span>Spring Boot</span><span>Kafka</span><span>Redis</span><span>PostgreSQL</span><span>Grafana</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <div>
+                                    <h3 class="tl-role">Software Engineer</h3>
+                                    <p class="tl-company">Cal Poly Digital Transformation Hub</p>
+                                </div>
+                                <div class="tl-meta">
+                                    <span class="tl-date">Mar 2022 - Jun 2023</span>
+                                    <span class="tl-loc">San Luis Obispo, CA</span>
+                                </div>
+                            </div>
+                            <ul class="tl-points">
+                                <li>Developed a cloud-based AWS platform connecting over 17,000 veterans with 30,000+ student volunteers, driving large-scale community engagement.</li>
+                                <li>Collaborated with SLO VSO and Cal Poly to build a custom mobile application, tailoring features to user needs and improving accessibility.</li>
+                                <li>Designed intuitive UI/UX in partnership with AWS Solution Architects, ensuring seamless navigation and strong user adoption.</li>
+                            </ul>
+                            <div class="tl-stack">
+                                <span>AWS</span><span>React</span><span>Mobile</span><span>UI/UX</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <div>
+                                    <h3 class="tl-role">Software Development Engineer Intern</h3>
+                                    <p class="tl-company">Amazon</p>
+                                </div>
+                                <div class="tl-meta">
+                                    <span class="tl-date">Jun 2022 - Sep 2022</span>
+                                    <span class="tl-loc">San Luis Obispo, CA</span>
+                                </div>
+                            </div>
+                            <ul class="tl-points">
+                                <li>Built a scalable backend service using AWS CDK, TypeScript, GraphQL, and RxJS for Amazon Advertising systems.</li>
+                                <li>Collaborated in a Scrum environment with a focus on test-driven development, ensuring high-quality, maintainable code.</li>
+                                <li>Implemented health endpoints and canary tests, enabling automated alerting and improving system reliability.</li>
+                            </ul>
+                            <div class="tl-stack">
+                                <span>AWS CDK</span><span>TypeScript</span><span>GraphQL</span><span>RxJS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-card">
+                            <div class="tl-top">
+                                <div>
+                                    <h3 class="tl-role">Software Engineer Intern</h3>
+                                    <p class="tl-company">Dragos, Inc.</p>
+                                </div>
+                                <div class="tl-meta">
+                                    <span class="tl-date">Oct 2021 - May 2022</span>
+                                    <span class="tl-loc">San Luis Obispo, CA</span>
+                                </div>
+                            </div>
+                            <ul class="tl-points">
+                                <li>Developed custom software to follow TCP streams and generate PCAP files, improving network analysis workflows.</li>
+                                <li>Leveraged Wireshark and Python Scapy to enhance tooling and ensure compatibility with industry-standard analysis systems.</li>
+                            </ul>
+                            <div class="tl-stack">
+                                <span>Python</span><span>Scapy</span><span>Wireshark</span><span>Networking</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-kicker">03 - Skills</span>
+                    <h2 class="section-title">Technical toolkit</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <h3 class="skill-cat">Languages</h3>
+                        <div class="chips">
+                            <span>Java</span><span>Python</span><span>JavaScript</span><span>C</span><span>C++</span><span>SQL</span><span>Go</span><span>Kotlin</span><span>Lua</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3 class="skill-cat">Frameworks</h3>
+                        <div class="chips">
+                            <span>React</span><span>Spring Boot</span><span>Django</span><span>Flask</span><span>Express.js</span><span>Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3 class="skill-cat">AI / ML</h3>
+                        <div class="chips">
+                            <span>MCP</span><span>LangGraph</span><span>LangChain</span><span>Agent-to-Agent (A2A)</span><span>RAG Pipelines</span><span>Milvus</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3 class="skill-cat">Tools &amp; Infra</h3>
+                        <div class="chips">
+                            <span>Git</span><span>Docker</span><span>Kubernetes</span><span>Splunk</span><span>AWS</span><span>GCP</span><span>Grafana</span><span>Jenkins</span><span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-kicker">04 - Projects</span>
+                    <h2 class="section-title">Things I've built</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <h3 class="project-title">Vetering</h3>
+                            <span class="project-badge">🏆 2nd / 100 teams</span>
+                        </div>
+                        <p class="project-desc">
+                            An AWS CDK application connecting student volunteers with veterans, built with
+                            React Native. Pitched at Camp PolyHacks Hackathon, securing 2nd place out of 100 teams.
+                        </p>
+                        <div class="chips chips-sm">
+                            <span>React Native</span><span>DynamoDB</span><span>AWS CDK</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <h3 class="project-title">Marble Collector RNG</h3>
+                            <span class="project-badge">🎮 500K+ players</span>
+                        </div>
+                        <p class="project-desc">
+                            A Roblox game with 500,000+ total players and 50,000+ Robux in revenue, centered on
+                            RNG-based progression. Designed the core gameplay loop - probability systems,
+                            progression scaling, and retention mechanics - to optimize engagement and monetization.
+                        </p>
+                        <div class="chips chips-sm">
+                            <span>Lua</span><span>Roblox Studio</span><span>Game Design</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="section-kicker">05 - Education</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="edu-card reveal">
+                    <div class="edu-top">
+                        <div>
+                            <h3 class="edu-school">California Polytechnic State University</h3>
+                            <p class="edu-degree">B.S. in Computer Science</p>
+                        </div>
+                        <div class="tl-meta">
+                            <span class="tl-date">Graduated Jun 2023</span>
+                            <span class="tl-loc">San Luis Obispo, CA</span>
+                        </div>
+                    </div>
+                    <p class="edu-label">Relevant Coursework</p>
+                    <div class="chips chips-sm">
+                        <span>Computer Architecture</span><span>Systems Programming</span><span>Analysis of Algorithms</span>
+                        <span>Data Structures</span><span>Programming Languages</span><span>Software Product Design</span>
+                        <span>Database Systems</span><span>Theory of Computation</span><span>Computer Security</span>
+                        <span>Operating Systems</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="contact-inner reveal">
+                    <span class="section-kicker">06 - Contact</span>
+                    <h2 class="contact-title">Let's build something together.</h2>
+                    <p class="contact-sub">
+                        I'm always open to discussing new projects, ideas, or opportunities.
+                        The fastest way to reach me is by email.
+                    </p>
+                    <a class="btn btn-primary btn-lg" href="mailto:nelzord@gmail.com">nelzord@gmail.com</a>
+                    <div class="contact-links">
+                        <a href="https://www.github.com/Nelzord" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17 5 18 5.3 18 5.3c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+                            GitHub
+                        </a>
+                        <a href="mailto:nelzord@gmail.com">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M2 4h20v16H2V4Zm2 2v.4l8 5 8-5V6H4Zm16 2.7-7.5 4.7a1 1 0 0 1-1 0L4 8.7V18h16V8.7Z"/></svg>
+                            Email
+                        </a>
+                        <span class="contact-loc">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+                            San Francisco, CA
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> Jack Nelson</span>
+            <a href="#top" class="smoothscroll footer-top">Back to top ↑</a>
         </div>
     </footer>
 
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-
-    <!-- JavaScript
-    ================================================== -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="js/app.js"></script>
 </body>
 </html>
